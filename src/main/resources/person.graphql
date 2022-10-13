@@ -1,0 +1,16 @@
+schema {
+    query: Query
+}
+
+type Query{
+    people: [Person!]!
+    person(name: String!): Person
+}
+
+type Person {
+    name: String
+    height: String
+    mass: String
+    gender: String
+    homeworld: String
+}
