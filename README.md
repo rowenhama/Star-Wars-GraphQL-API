@@ -1,6 +1,6 @@
 # Star-Wars-GraphQL-API
 
-#SovTech Spring Boot graphql api which consumes the Swapi API
+SovTech Spring Boot graphql api which consumes the Swapi API
 
 # Screen Shot
 
