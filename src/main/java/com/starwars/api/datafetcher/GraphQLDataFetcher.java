@@ -26,6 +26,7 @@ public class GraphQLDataFetcher {
                     }).getBody();
         };
     }
+
     public DataFetcher getPersonByName() {
         return dataFetchingEnvironment -> {
             String name = dataFetchingEnvironment.getArgument("name");

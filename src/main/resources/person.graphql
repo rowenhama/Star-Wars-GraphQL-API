@@ -2,12 +2,10 @@ schema {
     query: Query
 }
 
-
 type Query{
     people: [Person!]!
     person(name: String!): Person
 }
-
 
 type Person {
     name: String

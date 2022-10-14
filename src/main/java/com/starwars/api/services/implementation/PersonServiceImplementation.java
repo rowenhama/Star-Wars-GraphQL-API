@@ -25,7 +25,7 @@ public class PersonServiceImplementation implements PersonService {
         PersonList response = null;
         try {
             response = restTemplate.getForObject(StarWarsConstants.url_all_people, PersonList.class);
-            if(response!=null) {
+            if (response != null) {
                 return response.getResults();
             }
         } catch (Exception e) {
@@ -42,7 +42,7 @@ public class PersonServiceImplementation implements PersonService {
         try {
             RestTemplate restTemplate = new RestTemplate();
             response = restTemplate.getForObject(url, PersonList.class);
-            if(response!= null) {
+            if (response != null) {
                 return response.getResults();
             }
         } catch (Exception e) {
