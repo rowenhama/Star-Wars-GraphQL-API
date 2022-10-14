@@ -6,6 +6,7 @@ SovTech Spring Boot graphql api which consumes the Swapi API
 
 # Screen Shot
 
+  BELOW SHOWS ALL PERSONS RETRIEVED
 ![Screenshot (65)](https://user-images.githubusercontent.com/21174989/195569514-c65193f6-e8cc-4f27-9b2c-8fb94e213905.png)
 
 ## Dependencies
